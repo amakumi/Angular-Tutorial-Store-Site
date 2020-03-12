@@ -7,7 +7,7 @@ import { Output, EventEmitter } from '@angular/core';
   templateUrl: './product-alert.component.html',
   styleUrls: ['./product-alert.component.css']
 })
-export class ProductAlertsComponent {
+export class ProductAlertComponent {
   @Input() product;
   @Output() notify = new EventEmitter();
 
